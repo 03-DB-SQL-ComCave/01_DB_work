@@ -2,7 +2,6 @@
 
 # CRUD - Create | Read | Update | Delete
 
-
 DROP TABLE IF EXISTS boo.users;
 
 /* C - CREATE */
@@ -42,3 +41,4 @@ SELECT * FROM boo.users;
 
 DELETE FROM boo.users; -- ACHTUNG Daten sind weg!!
 SELECT * FROM boo.users;
+
