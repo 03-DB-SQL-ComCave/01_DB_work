@@ -1,13 +1,16 @@
 \! cls
 
--- SELECT * FROM boo.customers;
-
+-- SELECT 
+--     * 
+-- FROM boo.customers
+-- ;
 
 -- SELECT 
---     vorname,
 --     mail,
+--     vorname,
 --     wohnort
--- FROM boo.customers;
+-- FROM boo.customers
+-- ;
 
 # Begrenzen durch LIMIT
 /*
@@ -18,21 +21,21 @@ SELECT
     wohnort
 FROM boo.customers
 -- LIMIT 10
-LIMIT 10,20
+LIMIT 10,20 #'offset'
 ;
 */
 
 # Sortieren , numerisch
-/*
-SELECT 
-    nachname AS Kundenname,
-    age AS 'Alter'
-FROM boo.customers
--- ORDER BY age ASC
-ORDER BY age DESC
-LIMIT 20
-;
-*/
+/**/
+-- SELECT 
+--     nachname AS Kundenname,
+--     age AS 'Alter der Kunden'
+-- FROM boo.customers
+-- -- ORDER BY age ASC
+-- ORDER BY age DESC
+-- LIMIT 20
+-- ;
+
 
 # Sortieren , alphnumerisch / kombi
 /*
@@ -44,7 +47,7 @@ SELECT
 FROM boo.customers
 ORDER BY wohnort ASC, age DESC
 -- ORDER BY age DESC
--- LIMIT 20
+LIMIT 20
 ;
 */
 
@@ -56,16 +59,16 @@ SELECT
     age AS 'Alter',
     wohnort
 FROM boo.customers
-WHERE wohnort = "Berlin"
+-- WHERE wohnort = "Berlin"
+WHERE wohnort = "Duesseldorf"
 -- ORDER BY wohnort ASC, age DESC
 ORDER BY age DESC
-LIMIT 20
+-- LIMIT 20
 ;
 */
 
-/*
+/**/
 SELECT 
     count((id))
 FROM boo.customers
 ;
-*/
