@@ -35,7 +35,4 @@
 -- UPDATE boo.customers SET adresse = "Mustergasse 2" WHERE id = 1;
 -- SELECT * FROM boo.customers LIMIT 5;
 
--- UPDATE boo.customers 
 
--- SET adresse = (SELECT adresse FROM boo.customers WHERE id = 5) WHERE id = 4;
--- SELECT * FROM boo.customers LIMIT 5;
