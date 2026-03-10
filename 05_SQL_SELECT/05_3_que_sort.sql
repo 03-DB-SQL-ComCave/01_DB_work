@@ -15,12 +15,12 @@ FROM stocks.ccc
 
 -- ORDER BY price ASC -- Kurs, numerisch, beginnend mit der günstigsten Aktie
 -- ORDER BY price DESC -- Kurs, numerisch, beginnend mit der teuerste Aktie
-ORDER BY no_yrs DESC -- numerisch, Aktien mit der längsten Div.-Historie
+-- ORDER BY no_yrs DESC -- numerisch, Aktien mit der längsten Div.-Historie
 
 -- ORDER BY sector DESC,industry ASC  -- Kombination ASC / DESC alphabet.
 -- ORDER BY no_yrs DESC, sector ASC  -- Kombination ASC / DESC  alphabet. / numerisch
 
 # Begrenzung 
--- LIMIT 40 
-LIMIT 1
+LIMIT 40 
+-- LIMIT 1
 ;
