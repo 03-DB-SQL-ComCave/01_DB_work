@@ -6,7 +6,7 @@
 SELECT
     sector
 FROM stocks.ccc
--- ORDER BY sector ASC
+ORDER BY sector ASC
 LIMIT 50
 ;
 */
@@ -42,6 +42,7 @@ FROM stocks.ccc
 ORDER BY payouts ASC
 ;
 */
+
 
 # welche Unternehmen zahlen monatlich?
 /*
